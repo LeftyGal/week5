@@ -1,0 +1,92 @@
+/* set global font family, background image*/
+
+body {
+      font-family: sans-serif, monospace;
+      background-image: url(/week5/images/Kertesz%20feb%2079.jpg);
+      text-align: center;
+      background-repeat: no-repeat;
+      background-color: black;
+      background-position: center;
+      margin-top: 500px;
+      margin-bottom: 120px;
+      }
+
+/* unvisited link*/
+
+        
+  
+/*selected link*/
+
+
+/* Center on page, set width */
+
+.content-wrapper {
+      
+                  }
+
+/*make bigger and change color and style (change font family san seerif) and center */
+
+header h1{ 
+      background-color: black; 
+      color: white;
+      text-align: center;
+      font-size: 3em;
+      font-family: sans-serif monospace;
+          }
+
+
+      }
+
+li {
+    
+      }
+
+
+aside {
+  /* background color, float clear, clear both, float left, font color  */
+  
+}
+
+aside ul {
+  /* clear both. links?? */
+  
+  
+}
+  
+article {
+  /* background-color, float to the right?, font size  */
+  
+  }
+  
+ /* figure we want to center that using margin, size font */
+figure {
+      
+  }
+
+figcaption {
+    
+}
+
+
+
+  }
+#footer div{
+  /* images float left and center on page (float the images, create links and center links) */}
+  
+#footer ul
+    {
+  display:inline;
+    float: left;
+    }
+  
+#footer a{
+    float: center;
+    text-align: center}
+
+
+
+
+
+
+
+
