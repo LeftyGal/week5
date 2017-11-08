@@ -40,7 +40,11 @@ a {
 }
   
   
-
+p { 
+  text-align: center;
+  color: white;
+  
+}
 
 li {
     
