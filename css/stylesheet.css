@@ -65,9 +65,20 @@ p {
   
 }
 
-li {
-    
+li a{
+    display: block;
+    width: 60px;
+    color: dimgray;
+    padding: 8px 1em;
+    text-decoration: none;
       }
+
+/* Change the link color on hover */
+
+li a:hover {
+    background-color: dimgray;
+    color: yellow;
+}
 
 
 aside {
