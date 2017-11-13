@@ -118,7 +118,7 @@ figcaption {
             }
 
 .p1 {
-  font-family: "sans-serif" monospace;
+  font-family: "archivo narrow" monospace;
   color: black;
 }
 
@@ -130,8 +130,8 @@ footer {
 
 footer img {
   margin: 
-  width:
-  min width:
+  width: 200px;
+  height: 150px;
           }
 
 footer img-circle
