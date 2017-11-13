@@ -7,9 +7,12 @@ body {
       background-repeat: no-repeat;
       background-color: black;
       background-position: center;
-      margin-top: 500px;
+      margin-top: 623px;
       margin-bottom: 120px;
       }
+
+body a {
+      color: white;}
 /*About page, same as homepage, different image, social links*/
 
 body.About {
@@ -22,12 +25,8 @@ body.About {
         }
 
 
-.img me {
-        background: url(/week5/images/IMG_4749.jpg) no-repeat;
-        display: block;
-        background-position: center;
-        margin-bottom: auto;
-        width: 10%;
+.img-circle {
+        border-radius: 50%;
         }
 
 /* unvisited link*/
@@ -106,13 +105,15 @@ figcaption {
     
 }
 
+.p1 {
+  font-family: "sans-serif" monospace;
+  color: black;
+}
 
-
+ /* images float left and center on page (float the images, create links and center links) */
 footer {
-  /* images float left and center on page (float the images, create links and center links) */}
   clear:both;
   height:20vmin;
-
         }
 
 footer img {
@@ -126,9 +127,9 @@ footer img-circle
     border-radius: 50%;
     }
 
-#footer a{
-    float: center;
-    text-align: center}
+
+
+
 
 
 
