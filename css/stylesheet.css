@@ -1,48 +1,48 @@
 /* set global font family, background image*/
 
 body {
-      font-family: sans-serif, monospace;
-      background-image: url(/week5/images/Kertesz%20feb%2079.jpg);
+      font-family: "Montserrat", monospace;
       text-align: center;
+      background-image: url(/week5/images/Kertesz%20feb%2079.jpg);
       background-repeat: no-repeat;
       background-color: black;
       background-position: center;
-      margin-top: 623px;
-      margin-bottom: 120px;
+      margin-top: 500px;
+      margin-bottom: 125px;
       }
 
-body a {
-      color: white;}
-/*About page, same as homepage, different image, social links*/
+.home-bg {
+      background: url(/week5/images/Kertesz%20feb%2079.jpg) no-repeat center center fixed;
+      }
 
-body.About {
-      font-family: sans-serif, monospace;
-      text-align: center;
-      background-color: black;
-      background-position: center;
-      margin-top: 500px;
-      margin-bottom: 120px;   
-        }
-
-
-.img-circle {
-        border-radius: 50%;
-        }
-
-/* unvisited link*/
-
-        
-  
-/*selected link*/
-
-
-/* Center on page, set width */
 
 .content-wrapper {
       
                   }
 
-/*make bigger and change color and style (change font family san seerif) and center */
+body a {
+      color: black;
+        }
+
+/*About page, same as homepage, different image, social links*/
+
+body.About {
+      font-family: "archivo narrow", monospace;
+      text-align: center;
+      background-color: black;
+      background-position: center;
+      margin-top: 500px;
+      margin-bottom: 120px;
+       
+        }
+
+.img-circle {
+        border-radius: 75%;
+        align-content: center;
+        height: 75%;
+        width: 75%;
+            }
+
 
 header h1{ 
       background-color: black; 
@@ -57,12 +57,15 @@ a {
   
 }
   
+p {
+  color: white;
+}
   
-p { 
+p a { 
   text-align: center;
   color: white;
-  
-}
+  text-decoration-color: white;
+    }
 
 li a{
     display: block;
@@ -78,18 +81,6 @@ li a:hover {
     background-color: dimgray;
     color: yellow;
 }
-
-
-aside {
-  /* background color, float clear, clear both, float left, font color  */
-  
-}
-
-aside ul {
-  /* clear both. links?? */
-  
-  
-}
   
 article {
   /* background-color, float to the right?, font size  */
@@ -97,13 +88,34 @@ article {
   }
   
  /* figure we want to center that using margin, size font */
+
+.projects {
+  width: 220px;
+  float: left;
+  margin: 10px;
+  height: 200px;
+  background-color: black;
+}
+
 figure {
-      
-  }
+  display: block;
+  width: 225px;
+  height: 190px;
+  background-color: black;
+  margin: 20px;
+  padding: 10px;
+  text-align: left;  
+        }
+figure img {
+  width: 200px;
+  height: 200px;
+  border: 2px solid color:black;
+          }
 
 figcaption {
-    
-}
+  padding-left: 20px;
+     
+            }
 
 .p1 {
   font-family: "sans-serif" monospace;
@@ -126,6 +138,22 @@ footer img-circle
     {
     border-radius: 50%;
     }
+
+footerb {
+  color: white;
+  text-align: center;
+          }
+
+footerb a li {
+color: white;
+  text-align: center;
+        }
+
+address  {
+  color: white;
+  text-align: center;
+  height: inherit;
+}
 
 
 
