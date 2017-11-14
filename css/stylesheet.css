@@ -90,10 +90,10 @@ article {
  /* figure we want to center that using margin, size font */
 
 .projects {
-  width: 220px;
+  width: 400px;
   float: left;
-  margin: 10px;
-  height: 200px;
+  margin: 20px;
+  height: 300px;
   background-color: black;
 }
 
