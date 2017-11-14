@@ -3,7 +3,7 @@
 body {
       font-family: "Montserrat", monospace;
       text-align: center;
-      background-image: url(/week5/images/Kertesz%20feb%2079.jpg);
+      background-image: url(/week5/images/Kertesz_feb_79.jpg);
       background-repeat: no-repeat;
       background-color: black;
       background-position: center;
@@ -12,7 +12,7 @@ body {
       }
 
 .home-bg {
-      background: url(/week5/images/Kertesz%20feb%2079.jpg) no-repeat center center fixed;
+      background: url(/week5/images/Kertesz_feb_79.jpg) no-repeat center center fixed;
       }
 
 
