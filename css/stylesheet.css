@@ -107,7 +107,6 @@ figure img {
 figcaption {
   padding-left: 20px;
   color: white;
-     
             }
 
 .p1 {
@@ -148,6 +147,12 @@ footerb a li {
   color:white;
   text-align: center;
   text-decoration-color: white;
+  margin: 20px;
+}
+
+.icon-background5 {
+    color: #878787;
+    opacity:01;
 }
 
   
