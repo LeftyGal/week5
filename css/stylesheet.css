@@ -3,21 +3,19 @@
 body {
       font-family: "Montserrat", monospace;
       text-align: center;
-      background-image: url(/week5/images/Kertesz_feb_79.jpg);
-      background-repeat: no-repeat;
       background-color: black;
-      background-position: center;
-      margin-top: 470px;
-      margin-bottom: 0px;
       }
 
 .home-bg {
       background: url(/week5/images/Kertesz_feb_79.jpg) no-repeat center center fixed;
+      text-align: center;
+      background-image: url(/week5/images/Kertesz_feb_79.jpg);
+      background-repeat: no-repeat;
+      background-color: black;
+      background-position: center;
+      margin-top: 100px;
+      margin-bottom: 25px;
           }   
-
-
-.content-wrapper {
-                  }
 
 body a {
       color: black;
@@ -38,8 +36,8 @@ body.About {
 .img-circle {
         border-radius: 75%;
         align-content: center;
-        height: 75%;
-        width: 75%;
+        height: 90%;
+        width: 25%;
             }
 
 
@@ -48,7 +46,7 @@ header h1{
       color: white;
       text-align: center;
       font-size: 3em;
-      font-family: sans-serif monospace;
+      font-family: "Montserrat" monospace;
           }
 
 a {
@@ -79,11 +77,6 @@ li a:hover {
     background-color: dimgray;
     color: yellow;
           }
-  
-article {
-  /* background-color, float to the right?, font size  */
-  
-  }
   
  /* figure we want to center that using margin, size font */
 
@@ -119,7 +112,7 @@ figcaption {
 
 .p1 {
   font-family: "Archivo Narrow", monospace;
-  color: black;
+  color: white;
 }
 
  /* images float left and center on page (float the images, create links and center links) */
@@ -143,7 +136,6 @@ footer img-circle
 footerb {
   color: white;
   text-align: center;
-  border: 1px solid #FFFFFF;
   background-color: black;
   padding: inherit;
           }
@@ -152,6 +144,11 @@ footerb a li {
   color: white;
   text-align: center;
         }
+.clearfix a {
+  color:white;
+  text-align: center;
+  text-decoration-color: white;
+}
 
   
 
