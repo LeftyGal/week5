@@ -1,0 +1,158 @@
+/* set global font family, background image*/
+
+body {
+      font-family: "Montserrat", monospace;
+      text-align: center;
+      background-color: black;
+      }
+
+.home-bg {
+      background: url(/week5/images/Kertesz_feb_79.jpg) no-repeat center center fixed;
+      text-align: center;
+      background-image: url(/week5/images/Kertesz_feb_79.jpg);
+      background-repeat: no-repeat;
+      background-color: black;
+      background-position: center;
+      margin-top: 100px;
+      margin-bottom: 25px;
+          }   
+
+body a {
+      color: black;
+        }
+
+/*About page, same as homepage, different image, social links*/
+
+body.About {
+      font-family: "archivo narrow", monospace;
+      text-align: center;
+      background-color: black;
+      background-position: center;
+      margin-top: 500px;
+      margin-bottom: 120px;
+       
+        }
+
+.img-circle {
+        border-radius: 75%;
+        align-content: center;
+        height: 90%;
+        width: 25%;
+            }
+
+
+header h1{ 
+      background-color: black; 
+      color: white;
+      text-align: center;
+      font-size: 3em;
+      font-family: "Montserrat" monospace;
+          }
+
+a {
+  font color: white;
+  }
+  
+p {
+  color: white;
+  }
+  
+p a { 
+  text-align: center;
+  color: white;
+  text-decoration-color: white;
+    }
+
+li a{
+    display: block;
+    width: 60px;
+    color: dimgray;
+    padding: 8px 1em;
+    text-decoration: none;
+      }
+
+/* Change the link color on hover */
+
+li a:hover {
+    background-color: dimgray;
+    color: yellow;
+          }
+  
+ /* figure we want to center that using margin, size font */
+
+.projects {
+  width: 400px;
+  float: left;
+  margin: 20px;
+  height: 300px;
+  background-color: black;
+          }
+
+figure {
+  display: block;
+  width: 225px;
+  height: 190px;
+  background-color: black;
+  margin: 20px;
+  padding: 10px;
+  text-align: left;  
+        }
+
+figure img {
+  width: 200px;
+  height: 200px;
+  border: solid color:black; 2px;
+          }
+
+figcaption {
+  padding-left: 20px;
+  color: white;
+     
+            }
+
+.p1 {
+  font-family: "Archivo Narrow", monospace;
+  color: white;
+}
+
+ /* images float left and center on page (float the images, create links and center links) */
+
+footer {
+  clear:both;
+  height:20vmin;
+        }
+
+footer img {
+  margin: 
+  width: 200px;
+  height: 150px;
+          }
+
+footer img-circle
+    {
+    border-radius: 50%;
+    }
+
+footerb {
+  color: white;
+  text-align: center;
+  background-color: black;
+  padding: inherit;
+          }
+
+footerb a li {
+  color: white;
+  text-align: center;
+        }
+.clearfix a {
+  color:white;
+  text-align: center;
+  text-decoration-color: white;
+}
+
+  
+
+
+
+
+
