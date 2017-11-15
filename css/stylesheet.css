@@ -13,7 +13,7 @@ body {
 
 .home-bg {
       background: url(/week5/images/Kertesz_feb_79.jpg) no-repeat center center fixed;
-      }
+          }   
 
 
 .content-wrapper {
@@ -53,12 +53,11 @@ header h1{
 
 a {
   font color: white;
-  
-}
+  }
   
 p {
   color: white;
-}
+  }
   
 p a { 
   text-align: center;
@@ -79,7 +78,7 @@ li a{
 li a:hover {
     background-color: dimgray;
     color: yellow;
-}
+          }
   
 article {
   /* background-color, float to the right?, font size  */
@@ -94,7 +93,7 @@ article {
   margin: 20px;
   height: 300px;
   background-color: black;
-}
+          }
 
 figure {
   display: block;
@@ -105,23 +104,26 @@ figure {
   padding: 10px;
   text-align: left;  
         }
+
 figure img {
   width: 200px;
   height: 200px;
-  border: 2px solid color:black;
+  border: solid color:black; 2px;
           }
 
 figcaption {
   padding-left: 20px;
+  color: white;
      
             }
 
 .p1 {
-  font-family: "archivo narrow" monospace;
+  font-family: "Archivo Narrow", monospace;
   color: black;
 }
 
  /* images float left and center on page (float the images, create links and center links) */
+
 footer {
   clear:both;
   height:20vmin;
@@ -141,6 +143,9 @@ footer img-circle
 footerb {
   color: white;
   text-align: center;
+  border: 1px solid #FFFFFF;
+  background-color: black;
+  padding: inherit;
           }
 
 footerb a li {
