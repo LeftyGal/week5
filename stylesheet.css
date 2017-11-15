@@ -1,7 +1,7 @@
 /* set global font family, background image*/
 
 body {
-      font-family: "Montserrat", monospace;
+      font-family: "Montserrat", sans-serif;
       text-align: center;
       background-color: black;
       }
@@ -14,7 +14,7 @@ body {
       background-color: black;
       background-position: center;
       margin-top: 100px;
-      margin-bottom: 25px;
+      margin-bottom:10px;
           }   
 
 body a {
@@ -24,7 +24,7 @@ body a {
 /*About page, same as homepage, different image, social links*/
 
 body.About {
-      font-family: "archivo narrow", monospace;
+      font-family: "archivo narrow", sans-serif;
       text-align: center;
       background-color: black;
       background-position: center;
@@ -46,7 +46,8 @@ header h1{
       color: white;
       text-align: center;
       font-size: 3em;
-      font-family: "Montserrat" monospace;
+      font-family: "Montserrat", sans-serif;
+      margin: 100px;
           }
 
 a {
@@ -93,9 +94,10 @@ figure {
   width: 225px;
   height: 190px;
   background-color: black;
-  margin: 20px;
-  padding: 10px;
-  text-align: left;  
+  margin: 50px;
+  padding: 20px;
+  text-align: left; 
+  padding-left: 75px;
         }
 
 figure img {
@@ -107,11 +109,10 @@ figure img {
 figcaption {
   padding-left: 20px;
   color: white;
-     
             }
 
 .p1 {
-  font-family: "Archivo Narrow", monospace;
+  font-family: "Archivo Narrow", sans-serif;
   color: white;
 }
 
@@ -148,6 +149,12 @@ footerb a li {
   color:white;
   text-align: center;
   text-decoration-color: white;
+  margin: 20px;
+}
+
+.icon-background5 {
+    color: #878787;
+    opacity:01;
 }
 
   
