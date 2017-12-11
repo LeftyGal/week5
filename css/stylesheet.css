@@ -51,7 +51,7 @@ header h1{
           }
 
 a {
-  font color: white;
+  color: white;
   }
   
 p {
@@ -103,7 +103,7 @@ figure {
 figure img {
   width: 200px;
   height: 200px;
-  border: solid color:black; 2px;
+  border:2px solid red;
           }
 
 figcaption {
